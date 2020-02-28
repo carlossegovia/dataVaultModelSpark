@@ -13,6 +13,7 @@ object DataVaultModelExample {
       .appName("Model Test Datavault")
       .getOrCreate()
 
+    // Example of how to create automatically HUB, SAT and Links tables.
     // Create the HUB's and SAT's of two models
     val dfAirport = createAirportHubSat(spark)
     val dfFlight = createFlightHubSat(spark)
